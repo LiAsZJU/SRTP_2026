@@ -1,0 +1,41 @@
+{
+  "suite": "/g3240101584lt/srtp-ocean/runs/v4A_four_models_seed20261122_20261122T053535Z",
+  "status": {
+    "swin": {
+      "last_epoch": 3,
+      "seed": 20261122,
+      "device": "cuda",
+      "best_exists": true,
+      "latest_exists": true
+    },
+    "cnn": {
+      "last_epoch": 4,
+      "seed": 20261122,
+      "device": "cuda",
+      "best_exists": true,
+      "latest_exists": true
+    },
+    "unet": {
+      "last_epoch": 3,
+      "seed": 20261122,
+      "device": "cuda",
+      "best_exists": true,
+      "latest_exists": true
+    },
+    "vit": {
+      "last_epoch": 4,
+      "seed": 20261122,
+      "device": "cuda",
+      "best_exists": true,
+      "latest_exists": true
+    }
+  },
+  "old_weights_verified_unchanged": 99,
+  "training_pids": {
+    "swin": 199,
+    "cnn": 201,
+    "unet": 202,
+    "vit": 203
+  },
+  "input_runtime_check": "no_smap patch active"
+}

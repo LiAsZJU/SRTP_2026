@@ -1,0 +1,49 @@
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+
+[tool.ruff.lint]
+select = [
+    "E",
+    "W",
+    "F",
+    "I",
+    "B",
+    "C4",
+    "UP",
+    "SIM",
+]
+ignore = ["E501"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+warn_return_any = true
+warn_unused_ignores = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+
+[[tool.mypy.overrides]]
+module = [
+    "matplotlib.*",
+    "netCDF4.*",
+    "numpy.*",
+    "torch.*",
+    "dataset_v2.*",
+    "server_training_data.*",
+    "train_swin_physics.*",
+    "climatology_baseline.*",
+    "eof_ridge.*",
+    "residual_cnn.*",
+    "unet_baseline.*",
+    "vit_baseline.*",
+]
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = "tests.*"
+disallow_untyped_defs = false

@@ -1,0 +1,347 @@
+{
+  "runs/_archive/smoke_runs_20261119T215246/gpu_smoke_044512/best.pt": {
+    "sha256": "4a9be139a7d185a19cd009964bae58e92cb8aa072e6729c7b76d5bdc79dd6494",
+    "bytes": 3659879,
+    "inode": 313742846
+  },
+  "runs/_archive/smoke_runs_20261119T215246/gpu_smoke_044512/config.json": {
+    "sha256": "2ff4ac38e7e86c29cd29f7fef3f5f7c61ccfd4450f2a854b7782831f0ce196a1",
+    "bytes": 2338,
+    "inode": 313742841
+  },
+  "runs/_archive/smoke_runs_20261119T215246/gpu_smoke_044512/latest.pt": {
+    "sha256": "d80845d5c704160075a46b06cf5b74e23272b914c0848bf7aaf04c8067ce4acc",
+    "bytes": 3660875,
+    "inode": 313742845
+  },
+  "runs/_archive/smoke_runs_20261119T215246/gpu_smoke_044512/metrics.jsonl": {
+    "sha256": "c258ef9e41879c3995f706fc6eaa42c8b28d17c708d973e3bb991258afdec481",
+    "bytes": 1006,
+    "inode": 313742842
+  },
+  "runs/_archive/smoke_runs_20261119T215246/gpu_smoke_044512/test_metrics.json": {
+    "sha256": "46a48e8527bc7e9280664759b4beea071d58926fddbe25cae5d38d3c727b6786",
+    "bytes": 3145,
+    "inode": 313742847
+  },
+  "runs/_archive/smoke_runs_20261119T215246/smoke_task_script_043302/best.pt": {
+    "sha256": "23389ce1ed972d4535cb687d705bd0eec59dc57156365e5d768ed7914e9b6b96",
+    "bytes": 3655591,
+    "inode": 388657616
+  },
+  "runs/_archive/smoke_runs_20261119T215246/smoke_task_script_043302/config.json": {
+    "sha256": "134839eafe7b9ddc18d5fb27f68958a94ba8b397aece1380421038c8d181411d",
+    "bytes": 1007,
+    "inode": 388657612
+  },
+  "runs/_archive/smoke_runs_20261119T215246/smoke_task_script_043302/latest.pt": {
+    "sha256": "7163ce52b2ea772c2db802e0ef13da68f1b6a47661d0b94f87308ff0b1e8d3e4",
+    "bytes": 3656587,
+    "inode": 388657617
+  },
+  "runs/_archive/smoke_runs_20261119T215246/smoke_task_script_043302/metrics.jsonl": {
+    "sha256": "b9cc61c9f411ae04067471d18429f77efe0d8bc168941863529af460dcbf4074",
+    "bytes": 1004,
+    "inode": 388657614
+  },
+  "runs/_archive/smoke_runs_20261119T215246/smoke_task_script_043302/test_metrics.json": {
+    "sha256": "3e6427971de383cad8d5d2c0d220a0951825522297aee73d55a1e804506c8d61",
+    "bytes": 3150,
+    "inode": 388657619
+  },
+  "runs/_archive/smoke_runs_20261119T215246/swin_physics_parallel_data_v2_startup_open_files/config.json": {
+    "sha256": "0a81a548bbc6b70ce184c9c246ca5c39f66e702152efd2bafc3950a5ea15f062",
+    "bytes": 2325,
+    "inode": 388591664
+  },
+  "runs/_archive/smoke_runs_20261119T215246/swin_physics_v1_default_smoke/best.pt": {
+    "sha256": "0746b33cfae99558863266ebd52f2ccc15744b6f89f2a4939ec4cecc5696bec1",
+    "bytes": 3655207,
+    "inode": 238558127
+  },
+  "runs/_archive/smoke_runs_20261119T215246/swin_physics_v1_default_smoke/config.json": {
+    "sha256": "12ad981bc6651aac14b357c04c3f87b4f10036969e624cc5de3a12636bbff659",
+    "bytes": 684,
+    "inode": 238558124
+  },
+  "runs/_archive/smoke_runs_20261119T215246/swin_physics_v1_default_smoke/latest.pt": {
+    "sha256": "ef379937bd79234a9f108eff270d8d19464b83507f7206bdbe3012b6f542b3db",
+    "bytes": 3656203,
+    "inode": 238558128
+  },
+  "runs/_archive/smoke_runs_20261119T215246/swin_physics_v1_default_smoke/metrics.jsonl": {
+    "sha256": "bfe1468a517a6691b4819d9e731fd9f6c6a8ffd03b733f4507bbd37bdc9817c5",
+    "bytes": 804,
+    "inode": 238558125
+  },
+  "runs/_archive/smoke_runs_20261119T215246/swin_physics_v1_smoke/best.pt": {
+    "sha256": "a42c644d53f5d68d1066171d8a5c5c63c7cef90069ec5e378064f19c5c4bf202",
+    "bytes": 1320315,
+    "inode": 243080097
+  },
+  "runs/_archive/smoke_runs_20261119T215246/swin_physics_v1_smoke/config.json": {
+    "sha256": "87d3b3f19922fdd11364071178230f143bf5fd2b753e61a7306a49da9412f589",
+    "bytes": 676,
+    "inode": 243080094
+  },
+  "runs/_archive/smoke_runs_20261119T215246/swin_physics_v1_smoke/latest.pt": {
+    "sha256": "6d891cdc31103a7ebc9882ae7a0114cefd08c8ff7345361047f98aa82ee1c9e8",
+    "bytes": 1320843,
+    "inode": 243080096
+  },
+  "runs/_archive/smoke_runs_20261119T215246/swin_physics_v1_smoke/metrics.jsonl": {
+    "sha256": "c183f2bc8dd72277577643a919c5a8e0e6807edc1e01cf110a63d1cee655e41b",
+    "bytes": 405,
+    "inode": 243080095
+  },
+  "runs/baseline_suite_v2_20261120T105835Z/Results_README.md": {
+    "sha256": "4db08953178ddb1d6fd4d8b749b0f5b769c7228f561717a5a7cc96dc2915fb57",
+    "bytes": 1784,
+    "inode": 10593418
+  },
+  "runs/baseline_suite_v2_20261120T105835Z/climatology_baseline/best.pt": {
+    "sha256": "d01a4b5e311b10c21fac2a71f91a1ce54433ece93bb8b4b0fe1f19b9f80175cb",
+    "bytes": 4777,
+    "inode": 327764886
+  },
+  "runs/baseline_suite_v2_20261120T105835Z/climatology_baseline/config.json": {
+    "sha256": "2904b84a79869da93600b4d7a8d5bba15bba1bae37dda71d38f5f379803293fc",
+    "bytes": 2663,
+    "inode": 327764878
+  },
+  "runs/baseline_suite_v2_20261120T105835Z/climatology_baseline/latest.pt": {
+    "sha256": "eda92c6ad2a93f170bfe3a5083aa2ec6b0392cc0d6b456c081b0a5da88123c45",
+    "bytes": 4791,
+    "inode": 327764909
+  },
+  "runs/baseline_suite_v2_20261120T105835Z/climatology_baseline/metrics.jsonl": {
+    "sha256": "573a9370389afb3d362145871aeba31565a17bf37acce9c9b2f5af7a38b66bed",
+    "bytes": 234,
+    "inode": 327764887
+  },
+  "runs/baseline_suite_v2_20261120T105835Z/climatology_baseline/test_metrics.json": {
+    "sha256": "30318ff0e737031a5ae5ad38df10b542b5d5bd991cd8d1c98a1981168fdd9cf0",
+    "bytes": 3242,
+    "inode": 327764910
+  },
+  "runs/baseline_suite_v2_20261120T105835Z/eof_ridge/best.pt": {
+    "sha256": "f547b3e87eb5081462125926fc55e9e858e176fcdad4fa01547217a8bcfe9044",
+    "bytes": 34073,
+    "inode": 332693702
+  },
+  "runs/baseline_suite_v2_20261120T105835Z/eof_ridge/config.json": {
+    "sha256": "86fc2a8005e35f838a04fa9ef1cf69fb1922a65e3a96424d3385fdc1d8adc483",
+    "bytes": 4715,
+    "inode": 332759300
+  },
+  "runs/baseline_suite_v2_20261120T105835Z/eof_ridge/latest.pt": {
+    "sha256": "39438e2db7beab286fe5b3d9de7d0ac4662a72cbb158d2234f55f5e2d5e91ca7",
+    "bytes": 34159,
+    "inode": 332693709
+  },
+  "runs/baseline_suite_v2_20261120T105835Z/eof_ridge/metrics.jsonl": {
+    "sha256": "72265156a2efc2165ff72ee74f27d050be76eea35ec34b6647d035c36549be4a",
+    "bytes": 233,
+    "inode": 332693678
+  },
+  "runs/baseline_suite_v2_20261120T105835Z/eof_ridge/test_metrics.json": {
+    "sha256": "92fef0bb02c5fac4db24af73620d487c682c11be293a307756b214f140604b53",
+    "bytes": 3215,
+    "inode": 332693734
+  },
+  "runs/baseline_suite_v2_20261120T105835Z/residual_cnn/seed_20261117/best.pt": {
+    "sha256": "9be45967f11c6b1f5a817007d7684509c33300d22cd8a5c0fd8fe6229c94d61c",
+    "bytes": 2280927,
+    "inode": 332693689
+  },
+  "runs/baseline_suite_v2_20261120T105835Z/residual_cnn/seed_20261117/config.json": {
+    "sha256": "d5046f3e8d9039030e84186f8c03cdf0d4d0da97bdfd4b69a1516e1e3996bf39",
+    "bytes": 2678,
+    "inode": 332693752
+  },
+  "runs/baseline_suite_v2_20261120T105835Z/residual_cnn/seed_20261117/latest.pt": {
+    "sha256": "afa6ffc18c14b42630c8ce31c845fb75b547bc20c486b09a034c1298d0395467",
+    "bytes": 2281803,
+    "inode": 332693746
+  },
+  "runs/baseline_suite_v2_20261120T105835Z/residual_cnn/seed_20261117/metrics.jsonl": {
+    "sha256": "2b2c15abf6bf0ad5ba6ee178af983cded7c920534e1a1e3765dc6222a4c1db27",
+    "bytes": 108623,
+    "inode": 332693755
+  },
+  "runs/baseline_suite_v2_20261120T105835Z/residual_cnn/seed_20261117/test_metrics.json": {
+    "sha256": "44f6e9baba3eb8b817795cbca6df276b66a909dd3becdb24c56cbe3541acc90e",
+    "bytes": 3247,
+    "inode": 332759299
+  },
+  "runs/baseline_suite_v2_20261120T105835Z/residual_cnn/seed_20261118/best.pt": {
+    "sha256": "493ff413ebd9c1368f465868c7979c60d463e77f0be3f31d798ecd6c2411c608",
+    "bytes": 2280927,
+    "inode": 237271883
+  },
+  "runs/baseline_suite_v2_20261120T105835Z/residual_cnn/seed_20261118/config.json": {
+    "sha256": "2b323a5c85664bb0b1228b48007c97c03b9027c77b9c49c76211e84cafce90ec",
+    "bytes": 2678,
+    "inode": 237271881
+  },
+  "runs/baseline_suite_v2_20261120T105835Z/residual_cnn/seed_20261118/latest.pt": {
+    "sha256": "4444db3311a0bfea8402e9b26a10f9c079967b5905f122065ed2d8f93d115f25",
+    "bytes": 2281803,
+    "inode": 237271911
+  },
+  "runs/baseline_suite_v2_20261120T105835Z/residual_cnn/seed_20261118/metrics.jsonl": {
+    "sha256": "b874c067c69cc3a0507221b388c87ac43c0473b8e848d7661aaa30e0e2d140e4",
+    "bytes": 108585,
+    "inode": 237271882
+  },
+  "runs/baseline_suite_v2_20261120T105835Z/residual_cnn/seed_20261118/test_metrics.json": {
+    "sha256": "a6c93faec74338ed84ba92ee63dcbf3aa628e1a79f6129501bee6a457d23f3a6",
+    "bytes": 3240,
+    "inode": 237271916
+  },
+  "runs/baseline_suite_v2_20261120T105835Z/suite_summary.json": {
+    "sha256": "3fd5a9b7b76a4c0746472b8c5859c868ab6ec597f19740131a9c71dcfa0c95dd",
+    "bytes": 45586,
+    "inode": 10593414
+  },
+  "runs/baseline_suite_v2_20261120T105835Z/unet_baseline/seed_20261117/best.pt": {
+    "sha256": "9e6d50f43b4275a0af0f3f11d4271ef14c40d2e30d7e0a3e8195b03f9dcb4ab3",
+    "bytes": 13987119,
+    "inode": 10593415
+  },
+  "runs/baseline_suite_v2_20261120T105835Z/unet_baseline/seed_20261117/config.json": {
+    "sha256": "436ea9f28503346212fb01ad5fe7b65e2a8bc769fae8f0fb133159e13b06e63f",
+    "bytes": 2666,
+    "inode": 10198773
+  },
+  "runs/baseline_suite_v2_20261120T105835Z/unet_baseline/seed_20261117/latest.pt": {
+    "sha256": "02f50807780f9a4e539f30335123e5dab478f5939083437286d13abcd47b2be3",
+    "bytes": 13987787,
+    "inode": 10593382
+  },
+  "runs/baseline_suite_v2_20261120T105835Z/unet_baseline/seed_20261117/metrics.jsonl": {
+    "sha256": "779e1d91bd51a7b8f1e44fda04ed86d50db2118af22e5905d0f590321abbfee9",
+    "bytes": 108597,
+    "inode": 10198777
+  },
+  "runs/baseline_suite_v2_20261120T105835Z/unet_baseline/seed_20261117/test_metrics.json": {
+    "sha256": "800a587511a9eb51cda0b4311b7cdcd1ea15996dbefc2e81f5024f8f3045155e",
+    "bytes": 3242,
+    "inode": 10593385
+  },
+  "runs/baseline_suite_v2_20261120T105835Z/vit_baseline/seed_20261117/best.pt": {
+    "sha256": "773039c7ed4858487e490e4155245322bb2a1a9e120c6a7fe2621736ac5284d2",
+    "bytes": 12875591,
+    "inode": 332693598
+  },
+  "runs/baseline_suite_v2_20261120T105835Z/vit_baseline/seed_20261117/config.json": {
+    "sha256": "085e7018869d3ec4047b7eb8354b3d4e8c3047f3df7553d0acf63058f58dc981",
+    "bytes": 2738,
+    "inode": 332693753
+  },
+  "runs/baseline_suite_v2_20261120T105835Z/vit_baseline/seed_20261117/latest.pt": {
+    "sha256": "753ae50b448f3f9bfdd9c86a20c46f2419af4ff41d558617650e21ff046756ce",
+    "bytes": 12876619,
+    "inode": 332693652
+  },
+  "runs/baseline_suite_v2_20261120T105835Z/vit_baseline/seed_20261117/metrics.jsonl": {
+    "sha256": "530f606b1ebb67b1ccb0a75299b7869e88b078e37a8603843b7621d8fc856207",
+    "bytes": 108657,
+    "inode": 332693754
+  },
+  "runs/baseline_suite_v2_20261120T105835Z/vit_baseline/seed_20261117/test_metrics.json": {
+    "sha256": "7de9dcbf1030cd7adc8e1b2b7c5d392b08bff05033da06bfdb1b81f968aab0cb",
+    "bytes": 3242,
+    "inode": 332693704
+  },
+  "runs/swin_physics_parallel_6w_v1/best.pt": {
+    "sha256": "e9622affeae04a8a379440d1178f8800f69f07575bf04b77ee51373ef57d8a80",
+    "bytes": 3659495,
+    "inode": 334831999
+  },
+  "runs/swin_physics_parallel_6w_v1/config.json": {
+    "sha256": "c3c91dd511aab3eb4544b8d1c073e14e8838b84f2ed2040c820d73221b8f725c",
+    "bytes": 1972,
+    "inode": 334766329
+  },
+  "runs/swin_physics_parallel_6w_v1/latest.pt": {
+    "sha256": "a9566bc5aef5e462817b2d8dab7404b67bd59fc4fea9dc5a1540c097563e1dd5",
+    "bytes": 3660491,
+    "inode": 334832000
+  },
+  "runs/swin_physics_parallel_6w_v1/metrics.jsonl": {
+    "sha256": "4c4e1ac50463e6f8e60ec5cbec29a378c88ec2c0f3484630696bd8dee5217d3f",
+    "bytes": 25327,
+    "inode": 334831930
+  },
+  "runs/swin_physics_parallel_data_v2/best.pt": {
+    "sha256": "8089e98ee4255abc0d11c029a5389665ccb26f473ded11573ada1e8ca71a5494",
+    "bytes": 3657063,
+    "inode": 313479468
+  },
+  "runs/swin_physics_parallel_data_v2/config.json": {
+    "sha256": "0a81a548bbc6b70ce184c9c246ca5c39f66e702152efd2bafc3950a5ea15f062",
+    "bytes": 2325,
+    "inode": 313413844
+  },
+  "runs/swin_physics_parallel_data_v2/held_out_metrics.json": {
+    "sha256": "c2f1e1a3dd8534479aba557728dd18e2c5fd0fcf1fc07a7e6087f8abf013540e",
+    "bytes": 4276,
+    "inode": 313479472
+  },
+  "runs/swin_physics_parallel_data_v2/latest.pt": {
+    "sha256": "364e916e221060854aa04ee86afea9ee419550830b6557a4d7b9cd459c64f814",
+    "bytes": 3658059,
+    "inode": 313479467
+  },
+  "runs/swin_physics_parallel_data_v2/metrics.jsonl": {
+    "sha256": "ed8ece5dd4f1e87ef5bdbfc3b9231f33d19078fecc865fef1dc695901d2c80d4",
+    "bytes": 25374,
+    "inode": 313413843
+  },
+  "runs/swin_physics_v1/best.pt": {
+    "sha256": "4b95bc17fbff774df2caa8dd77e7d418ba3f78eb0cee4e4afd20f0a0b285f4f1",
+    "bytes": 3659431,
+    "inode": 313413802
+  },
+  "runs/swin_physics_v1/config.json": {
+    "sha256": "d7467231fed163d6071862b04823040d82f2ab5d5b686c2e8575cb36485793d2",
+    "bytes": 1938,
+    "inode": 313413781
+  },
+  "runs/swin_physics_v1/latest.pt": {
+    "sha256": "53afa29043d3b49f44f077c4bfe3b00a99f5539bd948151ad8b1d848409be868",
+    "bytes": 3660427,
+    "inode": 313413758
+  },
+  "runs/swin_physics_v1/metrics.jsonl": {
+    "sha256": "880dd4869bbcc40fac1f4c8dae5527a2c2c92976762019da2e2033871a7877a3",
+    "bytes": 20417,
+    "inode": 313413786
+  },
+  "runs/swin_physics_v2_500ep_gpu_20261118T044643Z/best.pt": {
+    "sha256": "99bf4953abf84e29caef4144127ec19564c08b273fc194494c61e69243abfd75",
+    "bytes": 3659943,
+    "inode": 256075746
+  },
+  "runs/swin_physics_v2_500ep_gpu_20261118T044643Z/config.json": {
+    "sha256": "63e87c1e8d69b60d42d634d242451d5dd3480eb7d363dc09bfa103b53cdab0d4",
+    "bytes": 2368,
+    "inode": 256141356
+  },
+  "runs/swin_physics_v2_500ep_gpu_20261118T044643Z/latest.pt": {
+    "sha256": "417759baf3c39bc14d496b4128509ef3f23d616c1a64e80b20f1a318462fbe50",
+    "bytes": 3660939,
+    "inode": 256996667
+  },
+  "runs/swin_physics_v2_500ep_gpu_20261118T044643Z/metrics.jsonl": {
+    "sha256": "59ee62a5f710831e12fd18d0add34d583b0af0a702d91f602ccb1d0a8d2989d0",
+    "bytes": 255120,
+    "inode": 256141357
+  },
+  "runs/swin_physics_v2_500ep_gpu_20261118T044643Z/test_metrics.json": {
+    "sha256": "a05b7566655793eb7c91c40aba37a97e0dd41db398221306475dee3b6959297e",
+    "bytes": 3179,
+    "inode": 256996707
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "status": "training_completed",
+  "seed": 20261122,
+  "dataset": "v4",
+  "ablate_mode": "no_smap",
+  "suite": "/g3240101584lt/srtp-ocean/runs/v4A_four_models_seed20261122_20261122T053535Z",
+  "elapsed_seconds": 1757,
+  "start_utc": "2026-11-22T05:35:39Z",
+  "finish_utc": "2026-11-22T06:04:56Z",
+  "manifest_sha256": "80fb336075a251c3d5ef1cba0de558d7c11791ac124b42a03a44d13184a996cc",
+  "previous_weights_verified_unchanged": 99,
+  "training_source_hashes_unchanged": true,
+  "independent_testing": "not_run",
+  "results": {
+    "swin": {
+      "epochs_completed": 200,
+      "exitcode": 0,
+      "best_epoch": 116,
+      "validation_score": 1.4725138445809987,
+      "validation_CT_RMSE_C": 0.8653725837714209,
+      "validation_SA_RMSE_g_kg": 0.12410812432122523,
+      "validation_CT_points": 503131,
+      "validation_SA_points": 503131,
+      "best_sha256": "3d618a2e82c6b560cbf81bf15382822e1aa5c0ec8753561e8f3bd910f0cd0ff8",
+      "latest_sha256": "76ae588e49ce86e3d897f11297dea48d7cd4f7dbcac2c2ea4a349834d30708a6"
+    },
+    "cnn": {
+      "epochs_completed": 200,
+      "exitcode": 0,
+      "best_epoch": 128,
+      "validation_score": 1.4633180436674964,
+      "validation_CT_RMSE_C": 0.8589248233683834,
+      "validation_SA_RMSE_g_kg": 0.12419715092476137,
+      "validation_CT_points": 503131,
+      "validation_SA_points": 503131,
+      "best_sha256": "91ab277c77fc55c4e3c60a4d21d98563c90a4ad50de27e2c481082dfbe661dd3",
+      "latest_sha256": "52d9cc2b0d783b194aeb12cdd180cd0689389fa86509523140f49c690c7c7f3a"
+    },
+    "unet": {
+      "epochs_completed": 200,
+      "exitcode": 0,
+      "best_epoch": 52,
+      "validation_score": 1.523253745170265,
+      "validation_CT_RMSE_C": 0.9001555039917586,
+      "validation_SA_RMSE_g_kg": 0.12923331552790462,
+      "validation_CT_points": 503131,
+      "validation_SA_points": 503131,
+      "best_sha256": "6c76ccf772e15dbdf3c57b120054ee8814a7bad44802cda95dfaa6d05f8034e2",
+      "latest_sha256": "de06d623d8d006554b53bd3e0d35badf2df746a83446bec3ee61033380e2b635"
+    },
+    "vit": {
+      "epochs_completed": 200,
+      "exitcode": 0,
+      "best_epoch": 53,
+      "validation_score": 1.5589870318747054,
+      "validation_CT_RMSE_C": 0.8964391109843454,
+      "validation_SA_RMSE_g_kg": 0.13796407774138988,
+      "validation_CT_points": 503131,
+      "validation_SA_points": 503131,
+      "best_sha256": "ff2777824dee45855aa91958c8c03c784f69181f4cbd1f8a64e053cbb5fe3f39",
+      "latest_sha256": "9e3692a31ac34737984fd85a399e1db20580177327c39a99dfcba3fbe36f4674"
+    }
+  },
+  "verified_utc": "2026-11-22T06:11:32.332314+00:00"
+}

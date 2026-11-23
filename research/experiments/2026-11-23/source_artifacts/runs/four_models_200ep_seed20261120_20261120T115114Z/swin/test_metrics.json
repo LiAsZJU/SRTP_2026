@@ -1,0 +1,111 @@
+{
+  "checkpoint": "/g3240101584lt/srtp-ocean/runs/four_models_200ep_seed20261120_20261120T115114Z/swin/best.pt",
+  "epoch": 166,
+  "dataset": "/g3240101584lt/srtp-ocean/data/training_ready_v2",
+  "manifest_sha256": "b7e9924c30358a7c2f6e3c772a14366515b1f3b321e992e6b3b77604c48b4555",
+  "device": "cuda",
+  "metrics": {
+    "test_locked": {
+      "months": [
+        "202401",
+        "202402",
+        "202403",
+        "202404",
+        "202405",
+        "202406",
+        "202407",
+        "202408",
+        "202409",
+        "202410",
+        "202411",
+        "202412"
+      ],
+      "operators": {
+        "native_coordinates": {
+          "all_E": {
+            "profiles_with_valid_levels": 6294,
+            "platforms": 144,
+            "normalized_score": 1.7835957623313585,
+            "CT": {
+              "valid_points": 321617,
+              "rmse": 0.9262712898765991,
+              "bias": 0.00736331349761083,
+              "r2": 0.9860214284289041
+            },
+            "SA": {
+              "valid_points": 321617,
+              "rmse": 0.12980422859023008,
+              "bias": -0.0065113655185006485,
+              "r2": 0.9381856009795182
+            }
+          },
+          "E_platforms_unseen_in_validation": {
+            "profiles_with_valid_levels": 823,
+            "platforms": 26,
+            "normalized_score": 1.7805753675464602,
+            "CT": {
+              "valid_points": 40154,
+              "rmse": 0.9567531549608903,
+              "bias": 0.021184403944901394,
+              "r2": 0.9838886852428661
+            },
+            "SA": {
+              "valid_points": 40154,
+              "rmse": 0.12622970636534223,
+              "bias": -0.0192638235143939,
+              "r2": 0.9107234845630816
+            }
+          }
+        }
+      }
+    },
+    "forward_test": {
+      "months": [
+        "202501",
+        "202502",
+        "202503",
+        "202504",
+        "202505",
+        "202506"
+      ],
+      "operators": {
+        "native_coordinates": {
+          "all_E": {
+            "profiles_with_valid_levels": 3224,
+            "platforms": 145,
+            "normalized_score": 1.849843633005053,
+            "CT": {
+              "valid_points": 166794,
+              "rmse": 0.9707120270590919,
+              "bias": -0.05125080444647619,
+              "r2": 0.9845623553576958
+            },
+            "SA": {
+              "valid_points": 166794,
+              "rmse": 0.13728755039148482,
+              "bias": -0.009337845664202345,
+              "r2": 0.9230887798433047
+            }
+          },
+          "E_platforms_unseen_in_validation": {
+            "profiles_with_valid_levels": 815,
+            "platforms": 37,
+            "normalized_score": 2.0006174004692023,
+            "CT": {
+              "valid_points": 43511,
+              "rmse": 1.0331282982057,
+              "bias": -0.06140015585607558,
+              "r2": 0.9820316794354865
+            },
+            "SA": {
+              "valid_points": 43511,
+              "rmse": 0.1439523934863959,
+              "bias": -0.011020020175464003,
+              "r2": 0.8606944505439222
+            }
+          }
+        }
+      }
+    }
+  }
+}

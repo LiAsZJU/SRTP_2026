@@ -1,0 +1,34 @@
+{
+  "seed": 20261122,
+  "epochs": 200,
+  "dataset": "v4",
+  "ablate_mode": "no_smap",
+  "fresh_initialization": true,
+  "resume": false,
+  "architectures": [
+    "swin",
+    "cnn",
+    "unet",
+    "vit"
+  ],
+  "workers_per_model": 2,
+  "validation_workers_per_model": 1,
+  "cpu_threads_per_model": 1,
+  "cache_gib_per_model": 14,
+  "manifest_sha256": "80fb336075a251c3d5ef1cba0de558d7c11791ac124b42a03a44d13184a996cc",
+  "source_sha256": {
+    "code/parallel_training/run_v4_four_models.sh": "9e09aefc7a8b13762e6d478fc291553aaff8862ab3b090a659c0d4e659a68c15",
+    "code/parallel_training/run_v4_four_models_seed20261122.sh": "240f19a6b67a32d7f1ba7dc063700c49ba895dce7dcc2fce2c4d4347afb17dad",
+    "code/parallel_training/train_arch.py": "007edb99ac69279e10f1492ceb197824ba2646449929e092296411464e2f964c",
+    "code/parallel_training/train_parallel.py": "16eaebde3cf178ce3cac3115a45f848dd9ae6e13adca496aa0e548b0a2cbe631",
+    "code/parallel_training/ablate_site/sitecustomize.py": "a6d8f3892906f9ae231dc526f70d438b53b788a742b4bd181f9f103f3dd082ff",
+    "code/residual_cnn/model.py": "28be73dbe5fcb9c651afaffa50e683de24ca89a8ffc53f2c94477ca5e8db5989",
+    "code/unet_baseline/model.py": "30604c69860c5a3ffa584ea4af407719b30547d2901f8218d225403d8bcb9107",
+    "code/vit_baseline/model.py": "9fa03d0da60ef75878a81a550c29e02e9e0cb1aefbba35d3ddc13074da0fc81e",
+    "code/train_swin_physics.py": "7c7c7f79e8fcbcd83a549b6c915d2af18d15d11dfef5782d71055b05e0d3b6df"
+  },
+  "previous_checkpoint_files_hashed": 99,
+  "created_utc": "20261122T053535Z",
+  "suite": "/g3240101584lt/srtp-ocean/runs/v4A_four_models_seed20261122_20261122T053535Z",
+  "testing_requested": false
+}

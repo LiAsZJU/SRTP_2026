@@ -1,0 +1,544 @@
+{
+  "status": "completed",
+  "finished_at_utc": "2026-11-20T12:05:30.346367+00:00",
+  "wall_minutes": 14.257143600000001,
+  "seed": 20261120,
+  "epochs_per_run": 200,
+  "dataset_manifest_sha256": "b7e9924c30358a7c2f6e3c772a14366515b1f3b321e992e6b3b77604c48b4555",
+  "old_artifacts_verified": 69,
+  "old_weights_verified": 28,
+  "source_hashes_verified": 38,
+  "results": [
+    {
+      "model": "residual_cnn",
+      "label": "残差CNN",
+      "seed": 20261120,
+      "epochs": 200,
+      "best_epoch": 191,
+      "validation": {
+        "epoch": 191,
+        "seconds": 2.744444942974951,
+        "train_total": 1.0141464106738567,
+        "train_grid": 0.27523269634693864,
+        "train_query": 0.7388837672770023,
+        "train_physics": 0.002994952055450995,
+        "validation_score": 1.7695689484708481,
+        "validation_CT_RMSE_C": 0.9258430901820195,
+        "validation_SA_RMSE_g_kg": 0.13387847819393034,
+        "validation_valid_CT_points": 598351,
+        "validation_valid_SA_points": 598351,
+        "amp_skipped_steps": 1,
+        "best": true
+      },
+      "train_validation_minutes": 10.319416015531655,
+      "run_dir": "/workspace/srtp-ocean/runs/four_models_200ep_seed20261120_20261120T115114Z/residual_cnn",
+      "tests": {
+        "test_locked": {
+          "months": [
+            "202401",
+            "202402",
+            "202403",
+            "202404",
+            "202405",
+            "202406",
+            "202407",
+            "202408",
+            "202409",
+            "202410",
+            "202411",
+            "202412"
+          ],
+          "operators": {
+            "native_coordinates": {
+              "all_E": {
+                "profiles_with_valid_levels": 6294,
+                "platforms": 144,
+                "normalized_score": 1.7751713324778287,
+                "CT": {
+                  "valid_points": 321617,
+                  "rmse": 0.9065858775242288,
+                  "bias": -0.019748418867270575,
+                  "r2": 0.986609268959645
+                },
+                "SA": {
+                  "valid_points": 321617,
+                  "rmse": 0.13182351350055996,
+                  "bias": -0.015946456655876302,
+                  "r2": 0.9362474243025666
+                }
+              },
+              "E_platforms_unseen_in_validation": {
+                "profiles_with_valid_levels": 823,
+                "platforms": 26,
+                "normalized_score": 1.8875314633824818,
+                "CT": {
+                  "valid_points": 40154,
+                  "rmse": 0.9649276010873257,
+                  "bias": 0.022473169262561096,
+                  "r2": 0.983612200765806
+                },
+                "SA": {
+                  "valid_points": 40154,
+                  "rmse": 0.12890232203083932,
+                  "bias": -0.019109568534372647,
+                  "r2": 0.9069030252532384
+                }
+              }
+            }
+          }
+        },
+        "forward_test": {
+          "months": [
+            "202501",
+            "202502",
+            "202503",
+            "202504",
+            "202505",
+            "202506"
+          ],
+          "operators": {
+            "native_coordinates": {
+              "all_E": {
+                "profiles_with_valid_levels": 3224,
+                "platforms": 145,
+                "normalized_score": 1.9302310709079968,
+                "CT": {
+                  "valid_points": 166794,
+                  "rmse": 1.0265748301028315,
+                  "bias": -0.128219066884693,
+                  "r2": 0.9827344092543822
+                },
+                "SA": {
+                  "valid_points": 166794,
+                  "rmse": 0.14207511183247032,
+                  "bias": -0.01607375063367237,
+                  "r2": 0.9176310741774375
+                }
+              },
+              "E_platforms_unseen_in_validation": {
+                "profiles_with_valid_levels": 815,
+                "platforms": 37,
+                "normalized_score": 2.0791175883272075,
+                "CT": {
+                  "valid_points": 43511,
+                  "rmse": 1.060031570554226,
+                  "bias": -0.14675380975896374,
+                  "r2": 0.9810836834897506
+                },
+                "SA": {
+                  "valid_points": 43511,
+                  "rmse": 0.1465224043769225,
+                  "bias": -0.011161156434498401,
+                  "r2": 0.8556759490370034
+                }
+              }
+            }
+          }
+        }
+      },
+      "checkpoint_hashes": {
+        "best.pt": "85190fc60f54773391cb55e8a6228f29197f260871f2669240a0ebe197f9440f",
+        "latest.pt": "17dd209754e92bac6d7245e1144427d15f6bad8d32a7c9bd21456d3538fb423e"
+      }
+    },
+    {
+      "model": "unet_baseline",
+      "label": "U-Net",
+      "seed": 20261120,
+      "epochs": 200,
+      "best_epoch": 75,
+      "validation": {
+        "epoch": 75,
+        "seconds": 3.998640673002228,
+        "train_total": 0.9072664871811867,
+        "train_grid": 0.2097606172785163,
+        "train_query": 0.6974264495074749,
+        "train_physics": 0.007942083085072228,
+        "validation_score": 1.8547674914936239,
+        "validation_CT_RMSE_C": 1.0178428409060296,
+        "validation_SA_RMSE_g_kg": 0.1411060840379987,
+        "validation_valid_CT_points": 598351,
+        "validation_valid_SA_points": 598351,
+        "amp_skipped_steps": 0,
+        "best": true
+      },
+      "train_validation_minutes": 12.893537595884602,
+      "run_dir": "/workspace/srtp-ocean/runs/four_models_200ep_seed20261120_20261120T115114Z/unet_baseline",
+      "tests": {
+        "test_locked": {
+          "months": [
+            "202401",
+            "202402",
+            "202403",
+            "202404",
+            "202405",
+            "202406",
+            "202407",
+            "202408",
+            "202409",
+            "202410",
+            "202411",
+            "202412"
+          ],
+          "operators": {
+            "native_coordinates": {
+              "all_E": {
+                "profiles_with_valid_levels": 6294,
+                "platforms": 144,
+                "normalized_score": 1.877310608000111,
+                "CT": {
+                  "valid_points": 321617,
+                  "rmse": 0.9986167648075233,
+                  "bias": -0.02282669656625127,
+                  "r2": 0.9837525917342049
+                },
+                "SA": {
+                  "valid_points": 321617,
+                  "rmse": 0.1426434142596207,
+                  "bias": -0.015317903069850819,
+                  "r2": 0.9253524736223372
+                }
+              },
+              "E_platforms_unseen_in_validation": {
+                "profiles_with_valid_levels": 823,
+                "platforms": 26,
+                "normalized_score": 1.9255499031979808,
+                "CT": {
+                  "valid_points": 40154,
+                  "rmse": 1.0324675105803054,
+                  "bias": 0.02022277693138801,
+                  "r2": 0.9812377912000121
+                },
+                "SA": {
+                  "valid_points": 40154,
+                  "rmse": 0.14371597175004103,
+                  "bias": -0.017867967035865774,
+                  "r2": 0.8842758076431164
+                }
+              }
+            }
+          }
+        },
+        "forward_test": {
+          "months": [
+            "202501",
+            "202502",
+            "202503",
+            "202504",
+            "202505",
+            "202506"
+          ],
+          "operators": {
+            "native_coordinates": {
+              "all_E": {
+                "profiles_with_valid_levels": 3224,
+                "platforms": 145,
+                "normalized_score": 1.9789704788392604,
+                "CT": {
+                  "valid_points": 166794,
+                  "rmse": 1.083792113868581,
+                  "bias": -0.09402620610995595,
+                  "r2": 0.9807561398637878
+                },
+                "SA": {
+                  "valid_points": 166794,
+                  "rmse": 0.1505467499569611,
+                  "bias": -0.017763175885680226,
+                  "r2": 0.9075152434263901
+                }
+              },
+              "E_platforms_unseen_in_validation": {
+                "profiles_with_valid_levels": 815,
+                "platforms": 37,
+                "normalized_score": 2.1125185763438297,
+                "CT": {
+                  "valid_points": 43511,
+                  "rmse": 1.114777360938477,
+                  "bias": -0.08516648246886299,
+                  "r2": 0.9790793461816022
+                },
+                "SA": {
+                  "valid_points": 43511,
+                  "rmse": 0.15719816216300306,
+                  "bias": -0.013662135208437436,
+                  "r2": 0.8338786064395991
+                }
+              }
+            }
+          }
+        }
+      },
+      "checkpoint_hashes": {
+        "best.pt": "93f1a3644ee0f76be7ddfa8c0024ee74cd05fcdb59a91debe6759fe2a840c2a5",
+        "latest.pt": "b8b1200714302a13bb958b0b1f71ce763a44557fe93f52ec7b4e24531f1fbac0"
+      }
+    },
+    {
+      "model": "vit_baseline",
+      "label": "ViT",
+      "seed": 20261120,
+      "epochs": 200,
+      "best_epoch": 60,
+      "validation": {
+        "epoch": 60,
+        "seconds": 3.441797202976886,
+        "train_total": 1.178344874083996,
+        "train_grid": 0.4009198792278767,
+        "train_query": 0.7773956395685673,
+        "train_physics": 0.002935298497322947,
+        "validation_score": 1.879400895943053,
+        "validation_CT_RMSE_C": 0.9907844336712786,
+        "validation_SA_RMSE_g_kg": 0.14953644411638115,
+        "validation_valid_CT_points": 598351,
+        "validation_valid_SA_points": 598351,
+        "amp_skipped_steps": 0,
+        "best": true
+      },
+      "train_validation_minutes": 12.044704557548297,
+      "run_dir": "/workspace/srtp-ocean/runs/four_models_200ep_seed20261120_20261120T115114Z/vit_baseline",
+      "tests": {
+        "test_locked": {
+          "months": [
+            "202401",
+            "202402",
+            "202403",
+            "202404",
+            "202405",
+            "202406",
+            "202407",
+            "202408",
+            "202409",
+            "202410",
+            "202411",
+            "202412"
+          ],
+          "operators": {
+            "native_coordinates": {
+              "all_E": {
+                "profiles_with_valid_levels": 6294,
+                "platforms": 144,
+                "normalized_score": 1.8679092586139605,
+                "CT": {
+                  "valid_points": 321617,
+                  "rmse": 0.9533514175143681,
+                  "bias": -0.011527446959529375,
+                  "r2": 0.9851921358516953
+                },
+                "SA": {
+                  "valid_points": 321617,
+                  "rmse": 0.15315777898360222,
+                  "bias": -0.02552356966145631,
+                  "r2": 0.9139422296769046
+                }
+              },
+              "E_platforms_unseen_in_validation": {
+                "profiles_with_valid_levels": 823,
+                "platforms": 26,
+                "normalized_score": 1.9743442033920484,
+                "CT": {
+                  "valid_points": 40154,
+                  "rmse": 1.00873958003328,
+                  "bias": 0.030161801565867317,
+                  "r2": 0.9820902592424654
+                },
+                "SA": {
+                  "valid_points": 40154,
+                  "rmse": 0.15981825206268035,
+                  "bias": -0.04899420113346696,
+                  "r2": 0.856891035290685
+                }
+              }
+            }
+          }
+        },
+        "forward_test": {
+          "months": [
+            "202501",
+            "202502",
+            "202503",
+            "202504",
+            "202505",
+            "202506"
+          ],
+          "operators": {
+            "native_coordinates": {
+              "all_E": {
+                "profiles_with_valid_levels": 3224,
+                "platforms": 145,
+                "normalized_score": 1.9258749717502541,
+                "CT": {
+                  "valid_points": 166794,
+                  "rmse": 1.0020255086871228,
+                  "bias": -0.08220812071298414,
+                  "r2": 0.9835503078851993
+                },
+                "SA": {
+                  "valid_points": 166794,
+                  "rmse": 0.14878293785447264,
+                  "bias": -0.022748902236914875,
+                  "r2": 0.9096696591010758
+                }
+              },
+              "E_platforms_unseen_in_validation": {
+                "profiles_with_valid_levels": 815,
+                "platforms": 37,
+                "normalized_score": 2.1114137869591665,
+                "CT": {
+                  "valid_points": 43511,
+                  "rmse": 1.0549100286838073,
+                  "bias": -0.15615709070549932,
+                  "r2": 0.9812660302616548
+                },
+                "SA": {
+                  "valid_points": 43511,
+                  "rmse": 0.16388137487670565,
+                  "bias": -0.036851623951423,
+                  "r2": 0.8194531836946138
+                }
+              }
+            }
+          }
+        }
+      },
+      "checkpoint_hashes": {
+        "best.pt": "b9c361929557d6988d51439172cf111cb5d74241ebda49da5dd3113ba92e39ed",
+        "latest.pt": "82888a7431b97f235244af8fc4e0cd0f76cfaf3de12e3c6205f6af54d1c02739"
+      }
+    },
+    {
+      "model": "swin",
+      "label": "Swin",
+      "seed": 20261120,
+      "epochs": 200,
+      "best_epoch": 166,
+      "validation": {
+        "epoch": 166,
+        "seconds": 3.1775096539931837,
+        "train_total": 1.0271536335349083,
+        "train_grid": 0.270293184556067,
+        "train_query": 0.7568371266126633,
+        "train_physics": 0.0023330949436058293,
+        "validation_score": 1.7845591364478182,
+        "validation_CT_RMSE_C": 0.928258624706737,
+        "validation_SA_RMSE_g_kg": 0.13268443576662847,
+        "validation_valid_CT_points": 598351,
+        "validation_valid_SA_points": 598351,
+        "netcdf_train_months": 0,
+        "netcdf_validation_months": 0,
+        "cached_months": 104,
+        "cache_gib": 6.668,
+        "best": true
+      },
+      "train_validation_minutes": 11.45574533278268,
+      "run_dir": "/workspace/srtp-ocean/runs/four_models_200ep_seed20261120_20261120T115114Z/swin",
+      "tests": {
+        "test_locked": {
+          "months": [
+            "202401",
+            "202402",
+            "202403",
+            "202404",
+            "202405",
+            "202406",
+            "202407",
+            "202408",
+            "202409",
+            "202410",
+            "202411",
+            "202412"
+          ],
+          "operators": {
+            "native_coordinates": {
+              "all_E": {
+                "profiles_with_valid_levels": 6294,
+                "platforms": 144,
+                "normalized_score": 1.7835957623313585,
+                "CT": {
+                  "valid_points": 321617,
+                  "rmse": 0.9262712898765991,
+                  "bias": 0.00736331349761083,
+                  "r2": 0.9860214284289041
+                },
+                "SA": {
+                  "valid_points": 321617,
+                  "rmse": 0.12980422859023008,
+                  "bias": -0.0065113655185006485,
+                  "r2": 0.9381856009795182
+                }
+              },
+              "E_platforms_unseen_in_validation": {
+                "profiles_with_valid_levels": 823,
+                "platforms": 26,
+                "normalized_score": 1.7805753675464602,
+                "CT": {
+                  "valid_points": 40154,
+                  "rmse": 0.9567531549608903,
+                  "bias": 0.021184403944901394,
+                  "r2": 0.9838886852428661
+                },
+                "SA": {
+                  "valid_points": 40154,
+                  "rmse": 0.12622970636534223,
+                  "bias": -0.0192638235143939,
+                  "r2": 0.9107234845630816
+                }
+              }
+            }
+          }
+        },
+        "forward_test": {
+          "months": [
+            "202501",
+            "202502",
+            "202503",
+            "202504",
+            "202505",
+            "202506"
+          ],
+          "operators": {
+            "native_coordinates": {
+              "all_E": {
+                "profiles_with_valid_levels": 3224,
+                "platforms": 145,
+                "normalized_score": 1.849843633005053,
+                "CT": {
+                  "valid_points": 166794,
+                  "rmse": 0.9707120270590919,
+                  "bias": -0.05125080444647619,
+                  "r2": 0.9845623553576958
+                },
+                "SA": {
+                  "valid_points": 166794,
+                  "rmse": 0.13728755039148482,
+                  "bias": -0.009337845664202345,
+                  "r2": 0.9230887798433047
+                }
+              },
+              "E_platforms_unseen_in_validation": {
+                "profiles_with_valid_levels": 815,
+                "platforms": 37,
+                "normalized_score": 2.0006174004692023,
+                "CT": {
+                  "valid_points": 43511,
+                  "rmse": 1.0331282982057,
+                  "bias": -0.06140015585607558,
+                  "r2": 0.9820316794354865
+                },
+                "SA": {
+                  "valid_points": 43511,
+                  "rmse": 0.1439523934863959,
+                  "bias": -0.011020020175464003,
+                  "r2": 0.8606944505439222
+                }
+              }
+            }
+          }
+        }
+      },
+      "checkpoint_hashes": {
+        "best.pt": "766307f1f8fde7cbbbcc11de4e02e3d78ac27130f8960b9d8154950e4bea93f9",
+        "latest.pt": "438eb756db56f3694dadee4f22e89207e484d52598ea04dcdb2eb2486864c0e7"
+      }
+    }
+  ]
+}

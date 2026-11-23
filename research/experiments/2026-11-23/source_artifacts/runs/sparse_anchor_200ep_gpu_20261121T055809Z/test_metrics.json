@@ -1,0 +1,111 @@
+{
+  "checkpoint": "/g3240101584lt/srtp-ocean/runs/sparse_anchor_200ep_gpu_20261121T055809Z/best.pt",
+  "epoch": 128,
+  "dataset": "/g3240101584lt/srtp-ocean/data/training_ready_v2",
+  "device": "cuda",
+  "anchor_keep": 1.0,
+  "metrics": {
+    "test_locked": {
+      "months": [
+        "202401",
+        "202402",
+        "202403",
+        "202404",
+        "202405",
+        "202406",
+        "202407",
+        "202408",
+        "202409",
+        "202410",
+        "202411",
+        "202412"
+      ],
+      "operators": {
+        "native_coordinates": {
+          "all_E": {
+            "profiles_with_valid_levels": 6294,
+            "platforms": 144,
+            "normalized_score": 1.9214806497297914,
+            "CT": {
+              "valid_points": 321617,
+              "rmse": 0.9749888638381222,
+              "bias": 0.05143950182596803,
+              "r2": 0.9845123438271737
+            },
+            "SA": {
+              "valid_points": 321617,
+              "rmse": 0.1606617579894115,
+              "bias": -0.023485861209859696,
+              "r2": 0.905302830161455
+            }
+          },
+          "E_platforms_unseen_in_validation": {
+            "profiles_with_valid_levels": 823,
+            "platforms": 26,
+            "normalized_score": 1.9200847495318931,
+            "CT": {
+              "valid_points": 40154,
+              "rmse": 1.011497629579285,
+              "bias": 0.10296059651115225,
+              "r2": 0.9819921893710746
+            },
+            "SA": {
+              "valid_points": 40154,
+              "rmse": 0.16121127948420247,
+              "bias": -0.05140207255213789,
+              "r2": 0.8543853949210798
+            }
+          }
+        }
+      }
+    },
+    "forward_test": {
+      "months": [
+        "202501",
+        "202502",
+        "202503",
+        "202504",
+        "202505",
+        "202506"
+      ],
+      "operators": {
+        "native_coordinates": {
+          "all_E": {
+            "profiles_with_valid_levels": 3224,
+            "platforms": 145,
+            "normalized_score": 1.9985861682709682,
+            "CT": {
+              "valid_points": 166794,
+              "rmse": 1.0331571784520082,
+              "bias": -0.04172369034034133,
+              "r2": 0.9825122871399986
+            },
+            "SA": {
+              "valid_points": 166794,
+              "rmse": 0.15845318626088295,
+              "bias": -0.024452253921881856,
+              "r2": 0.8975459000325707
+            }
+          },
+          "E_platforms_unseen_in_validation": {
+            "profiles_with_valid_levels": 815,
+            "platforms": 37,
+            "normalized_score": 2.1746888906868915,
+            "CT": {
+              "valid_points": 43511,
+              "rmse": 1.0952033886651438,
+              "bias": -0.1554824106749871,
+              "r2": 0.979807572602829
+            },
+            "SA": {
+              "valid_points": 43511,
+              "rmse": 0.17426460574758504,
+              "bias": -0.04518609177238575,
+              "r2": 0.7958501744084864
+            }
+          }
+        }
+      }
+    }
+  }
+}

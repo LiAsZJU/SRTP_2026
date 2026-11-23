@@ -1,0 +1,22 @@
+{
+  "README.md": "d6cdde83a1cb8239140598de513c1386da07f226a95383016a0cd2191da73006",
+  "code/Code_README.md": "bd3a385e64e42d630ce357452b7f2b977e665f30566558f78bc6c78c64b56277",
+  "runs/Runs_README.md": "f41a519f1f824ffc55a3f82bd3e716ab3f2b72a22758286bb0a508be8b89128d",
+  "runs/A_TrainLog.md": "38e491f118747b9afe8f20400cc8c21b8295435a74f29c461338362dfa8656a3",
+  "data/Data_README.md": "30a27a1d34775b9269d3b9f316d1e92425be80998ab83bb6193b939d4af5b6ca",
+  "code/parallel_training/run_v4_four_models_seed20261122.sh": "240f19a6b67a32d7f1ba7dc063700c49ba895dce7dcc2fce2c4d4347afb17dad",
+  "runs/v4A_four_models_seed20261122_20261122T053535Z/launch_provenance.json": "3896defdf4354a2c7d07b85d418f6c10e7b400f3dfc66b121014fae8affeb7fc",
+  "runs/v4A_four_models_seed20261122_20261122T053535Z/previous_weights_sha256.json": "9506023de817f00e05f2c8584d15257365ae7ec53cb7a23626d0b9264a2ee0f8",
+  "runs/v4A_four_models_seed20261122_20261122T053535Z/startup_verification.json": "6c00c59190a2a60d638600a9b3d801336f1de4e50199c2be0c502993c619175e",
+  "runs/v4A_four_models_seed20261122_20261122T053535Z/suite.log": "e1e6689baa62086eac59e3f3d923af716c1e44bf3d6835e36b716622ec00eca2",
+  "runs/v4A_four_models_seed20261122_20261122T053535Z/launcher.pid": "49d7ac459790bd263dec212b9b71f59c0b5d55947c3c9593127ccfe8dadeff08",
+  "runs/v4A_four_models_seed20261122_20261122T053535Z/swin/config.json": "846e05a55cfbbc5696c01eb039a6932de9c995e1d9d0a7a060d04b751605fa12",
+  "runs/v4A_four_models_seed20261122_20261122T053535Z/cnn/config.json": "6dc0caa4ebbe50df8a1ec75e46a2de661083810bba2817445b81d9f813bf0c49",
+  "runs/v4A_four_models_seed20261122_20261122T053535Z/unet/config.json": "5414cb4f6172fc2b1dd22d82d62ea0c75b4eda8a473eecc5541cd9326efb063b",
+  "runs/v4A_four_models_seed20261122_20261122T053535Z/vit/config.json": "3e509ce8b553c6e3c68fce9ffcb6f59fef586c88725b5610b69000949d41cc55",
+  "runs/v4A_four_models_seed20261122_20261122T053535Z/docs_before/README.md": "47dda1e513db5501661b2eacec6fb953c6a6a6b9982864d5e61d6ce0532c4fcc",
+  "runs/v4A_four_models_seed20261122_20261122T053535Z/docs_before/code/Code_README.md": "9f825bb42f4a5f3f3c39f7f9b662d198b39f043a1894569c291d2e4b54a9a738",
+  "runs/v4A_four_models_seed20261122_20261122T053535Z/docs_before/runs/A_TrainLog.md": "2bee577c683c178d270f93add70a7cd6582a1e75f8f68eb443838542945dcd9a",
+  "runs/v4A_four_models_seed20261122_20261122T053535Z/docs_before/runs/Runs_README.md": "fc55416203b7e4bf5a1ac3d19efa49a4949187c3b608c99a941bd094bba9c56e",
+  "runs/v4A_four_models_seed20261122_20261122T053535Z/docs_before/data/Data_README.md": "41ef46dd713901e89f22ed8a265850adbf3b39d318406032ac261b877d4c770a"
+}

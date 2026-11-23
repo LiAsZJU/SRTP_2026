@@ -53,7 +53,11 @@ env/
 *.onnx
 /checkpoints/
 /outputs/
-/runs/
+/runs/*
+!/runs/Runs_README.md
+!/runs/V2_Trainlog.md
+!/runs/V4_Trainlog.md
+!/runs/train_01_log.md
 /logs/
 /wandb/
 /mlruns/

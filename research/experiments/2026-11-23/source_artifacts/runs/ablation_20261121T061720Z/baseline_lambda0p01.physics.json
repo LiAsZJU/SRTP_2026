@@ -1,0 +1,20 @@
+{
+  "checkpoint": "/g3240101584lt/srtp-ocean/runs/four_models_200ep_seed20261120_20261120T115114Z/swin/best.pt",
+  "epoch": 166,
+  "lambda_physics": 0.01,
+  "validation": {
+    "prediction": {
+      "valid_pairs": 33869520,
+      "violation_rate": 0.036286194964001574,
+      "violation_rate_0": 0.039426569904511176,
+      "mean_violation": 0.1272453898563981
+    },
+    "reference_CORA": {
+      "valid_pairs": 33869520,
+      "violation_rate": 0.015759981256754447,
+      "violation_rate_0": 0.02076545524566124,
+      "mean_violation": 0.10954177317519982
+    },
+    "months": 24
+  }
+}

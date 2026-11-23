@@ -1,0 +1,20 @@
+{
+  "checkpoint": "/g3240101584lt/srtp-ocean/runs/ablation_20261121T061720Z/A1_lambda0/best.pt",
+  "epoch": 166,
+  "lambda_physics": 0.0,
+  "validation": {
+    "prediction": {
+      "valid_pairs": 33869520,
+      "violation_rate": 0.03746141066464285,
+      "violation_rate_0": 0.0406244609815379,
+      "mean_violation": 0.12984811017910639
+    },
+    "reference_CORA": {
+      "valid_pairs": 33869520,
+      "violation_rate": 0.015759981256754447,
+      "violation_rate_0": 0.02076545524566124,
+      "mean_violation": 0.10954177317519982
+    },
+    "months": 24
+  }
+}

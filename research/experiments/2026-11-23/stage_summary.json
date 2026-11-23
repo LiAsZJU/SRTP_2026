@@ -1,0 +1,58 @@
+{
+  "status": "stage_complete",
+  "date": "2026-11-23",
+  "scope": "monthly tropical Pacific 3D CT/SA reconstruction",
+  "protocols": {
+    "v2": {
+      "training": "2015-04/2021-11",
+      "validation": "2022-01/2023-12",
+      "test_locked": "2024-01/2024-12",
+      "forward_test": "2025-01/2025-06",
+      "smap": true
+    },
+    "v4": {
+      "training": "2005-01/2019-11",
+      "validation": "2020-01/2021-12",
+      "test_locked": "2022-01/2024-12",
+      "forward_test": "2025-01/2025-06",
+      "smap": false
+    }
+  },
+  "v2_representative_results": {
+    "swin_seed20261118": {
+      "validation_score": 1.772316,
+      "test_2024_CT_RMSE_C": 0.92226,
+      "test_2024_SA_RMSE_g_kg": 0.12869,
+      "forward_2025H1_CT_RMSE_C": 0.96982,
+      "forward_2025H1_SA_RMSE_g_kg": 0.13561
+    },
+    "cnn_best_validation": {
+      "seed": 20261117,
+      "validation_score": 1.760053,
+      "test_2024_CT_RMSE_C": 0.92375,
+      "test_2024_SA_RMSE_g_kg": 0.13176,
+      "forward_2025H1_CT_RMSE_C": 1.03187,
+      "forward_2025H1_SA_RMSE_g_kg": 0.14025
+    }
+  },
+  "v4_best_validation": {
+    "swin": 1.47193,
+    "cnn": 1.463318,
+    "unet": 1.521492,
+    "vit": 1.558987
+  },
+  "ablation": {
+    "remove_context_relative_score_change_percent": 6.78,
+    "remove_all_surface_relative_score_change_percent": 1.02,
+    "offsets_only_relative_score_change_percent": 24.2,
+    "physics_violation_fraction_lambda0": 0.0375,
+    "physics_violation_fraction_lambda1": 0.033
+  },
+  "main_findings": [
+    "Swin and residual CNN form the current leading group; neither has a decisive architecture advantage.",
+    "Sparse Argo context is the dominant information source; surface products add a smaller incremental gain.",
+    "The stability loss reduces static-instability violations with negligible predictive-score change.",
+    "The largest errors occur at 50-200 m for CT and in the upper ocean for SA.",
+    "Independent external mooring validation is still required because CORA may include held-out Argo observations."
+  ]
+}

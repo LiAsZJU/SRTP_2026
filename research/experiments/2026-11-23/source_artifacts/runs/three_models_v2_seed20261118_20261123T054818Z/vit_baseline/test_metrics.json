@@ -1,0 +1,113 @@
+{
+  "checkpoint": "/g3240101584lt/srtp-ocean/runs/three_models_v2_seed20261118_20261123T054818Z/vit_baseline/best.pt",
+  "architecture": "vit_baseline",
+  "seed": 20261118,
+  "epoch": 74,
+  "dataset": "/g3240101584lt/srtp-ocean/data/training_ready_v2",
+  "manifest_sha256": "b7e9924c30358a7c2f6e3c772a14366515b1f3b321e992e6b3b77604c48b4555",
+  "device": "cuda",
+  "metrics": {
+    "test_locked": {
+      "months": [
+        "202401",
+        "202402",
+        "202403",
+        "202404",
+        "202405",
+        "202406",
+        "202407",
+        "202408",
+        "202409",
+        "202410",
+        "202411",
+        "202412"
+      ],
+      "operators": {
+        "native_coordinates": {
+          "all_E": {
+            "profiles_with_valid_levels": 6294,
+            "platforms": 144,
+            "normalized_score": 1.8494073793846217,
+            "CT": {
+              "valid_points": 321617,
+              "rmse": 0.9605093651948514,
+              "bias": -0.021107722438183065,
+              "r2": 0.9849689404458042
+            },
+            "SA": {
+              "valid_points": 321617,
+              "rmse": 0.1507438858516325,
+              "bias": -0.025134238551183446,
+              "r2": 0.9166335357315655
+            }
+          },
+          "E_platforms_unseen_in_validation": {
+            "profiles_with_valid_levels": 823,
+            "platforms": 26,
+            "normalized_score": 1.8605564805245989,
+            "CT": {
+              "valid_points": 40154,
+              "rmse": 0.9922954933482032,
+              "bias": 0.05316401399594471,
+              "r2": 0.9826694153420207
+            },
+            "SA": {
+              "valid_points": 40154,
+              "rmse": 0.15690801104119403,
+              "bias": -0.05028095835321731,
+              "r2": 0.8620555214971224
+            }
+          }
+        }
+      }
+    },
+    "forward_test": {
+      "months": [
+        "202501",
+        "202502",
+        "202503",
+        "202504",
+        "202505",
+        "202506"
+      ],
+      "operators": {
+        "native_coordinates": {
+          "all_E": {
+            "profiles_with_valid_levels": 3224,
+            "platforms": 145,
+            "normalized_score": 1.9342347826531991,
+            "CT": {
+              "valid_points": 166794,
+              "rmse": 1.005966859434549,
+              "bias": -0.11652322512589974,
+              "r2": 0.9834206474838253
+            },
+            "SA": {
+              "valid_points": 166794,
+              "rmse": 0.14996157128799287,
+              "bias": -0.02659249124760602,
+              "r2": 0.9082328268178496
+            }
+          },
+          "E_platforms_unseen_in_validation": {
+            "profiles_with_valid_levels": 815,
+            "platforms": 37,
+            "normalized_score": 2.1176208794228377,
+            "CT": {
+              "valid_points": 43511,
+              "rmse": 1.060726711017153,
+              "bias": -0.18820778796614246,
+              "r2": 0.9810588657221933
+            },
+            "SA": {
+              "valid_points": 43511,
+              "rmse": 0.165713719035039,
+              "bias": -0.04088603755699046,
+              "r2": 0.8153932548365703
+            }
+          }
+        }
+      }
+    }
+  }
+}
